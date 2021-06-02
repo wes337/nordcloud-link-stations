@@ -1,9 +1,9 @@
 import { LinkStation, Point } from "./types";
 
 export const linkStations = [
-  <LinkStation>{ location: { x: 0, y: 0 }, reach: 10 },
-  <LinkStation>{ location: { x: 20, y: 20 }, reach: 5 },
-  <LinkStation>{ location: { x: 10, y: 0 }, reach: 12 },
+  <LinkStation>{ x: 0, y: 0, reach: 10 },
+  <LinkStation>{ x: 20, y: 20, reach: 5 },
+  <LinkStation>{ x: 10, y: 0, reach: 12 },
 ];
 
 export const devices = [
