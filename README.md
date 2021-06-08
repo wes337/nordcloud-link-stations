@@ -5,6 +5,7 @@ A program that finds the link station with the most power for a device at a give
 ## Usage
 
 Hosted as a serverless cloud function on Firebase. If you're only interested in the function logic, please see `functions/src/functions.ts`.
+You can also run the unit tests using `npm run test` inside the functions directory _(Node version 14.16.0)_.
 
 #### Find the best link station
 
